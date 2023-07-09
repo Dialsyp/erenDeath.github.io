@@ -1,0 +1,27 @@
+.circle {
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    
+    border-radius: 50%;
+    z-index: 9999;
+  }
+  
+  .circle.sm {
+    background-color: aqua;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .circle.md {
+    background-color: rgb(87, 219, 219);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circle.lg {
+    background-color: rgb(165, 233, 233);
+    width: 30px;
+    height: 30px;
+  }
+  
